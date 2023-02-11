@@ -1,6 +1,5 @@
 # Azure SQL Database - Relational Databases In Azure
-
-https://www.youtube.com/watch?v=BgvEOkcR0Wk
+Azure SQL Database is one of the key data storage solution for structured data in Azure. If you need to manage structured data via schema, constraints and relationships or you need to explore your data via rich query language then this is the right service.
 
 
 ## Connect to the database
@@ -22,18 +21,11 @@ This connection method is better.
 - Add an Admin User to the Active Directory :
 <img src="/pictures/active_directory.png" title="activedirectory"  width="800">
 
-- Simply connect by providing login and password in MSSMS :
+- Simply follow the required steps :
 <img src="/pictures/firewall2.png" title="connect by firewall rule"  width="800">
+<img src="/pictures/firewall3.png" title="connect by firewall rule"  width="800">
 
+- You can even connect through Azure Data Studio
+<img src="/pictures/data_studio.png" title="azure data studio"  width="800">
+<img src="/pictures/data_studio2.png" title="azure data studio"  width="800">
 
-
-
-
-
-
-
-```
-dotnet restore --interactive
-cd path/to/package.nupkg
-dotnet nuget push --source "AlexeiDemoFeed" --api-key az --force-english-output --interactive AlexeiHelperLibrary.1.0.0.nupkg
-```
